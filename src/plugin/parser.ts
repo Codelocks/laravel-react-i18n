@@ -1,8 +1,8 @@
-import fs from 'fs';
-import path from 'path';
+import * as fs from 'node:fs';
+import * as path from 'node:path';
 import { fromString } from 'php-array-reader';
 
-import { dirnameSanitize } from './helper';
+import { dirnameSanitize } from './helper.ts';
 
 /**
  *

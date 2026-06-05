@@ -1,4 +1,4 @@
-import LocaleFileInterface from './locale-file';
+import LocaleFileInterface from './locale-file.ts';
 
 /**
  * The Interface that is responsible for the default options.

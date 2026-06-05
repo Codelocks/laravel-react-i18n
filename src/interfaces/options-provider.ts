@@ -1,4 +1,4 @@
-import OptionsInterface from './options';
+import OptionsInterface from './options.ts';
 
 /**
  * The Interface that is responsible for the OptionsProvider provided.

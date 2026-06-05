@@ -1,5 +1,5 @@
 import '@testing-library/jest-dom';
-import fs from 'fs';
+import fs from 'node:fs';
 import { resolve } from 'path';
 import locale from '../src/plugin/locale';
 import parser from '../src/plugin/parser';

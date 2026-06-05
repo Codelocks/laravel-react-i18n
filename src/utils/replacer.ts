@@ -1,4 +1,4 @@
-import ReplacementsInterface from '../interfaces/replacements';
+import ReplacementsInterface from '../interfaces/replacements.ts';
 
 /**
  * Make the place-holder replacements on a line.

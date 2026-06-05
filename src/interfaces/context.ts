@@ -1,4 +1,4 @@
-import ReplacementsInterface from './replacements';
+import ReplacementsInterface from './replacements.ts';
 
 /**
  *

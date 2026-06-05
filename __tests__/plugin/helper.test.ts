@@ -1,4 +1,4 @@
-import path from 'path';
+import path from 'node:path';
 import { dirnameSanitize } from '../../src/plugin/helper';
 
 const { sep } = path;

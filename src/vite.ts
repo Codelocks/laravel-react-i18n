@@ -1,10 +1,10 @@
-import fs from 'fs';
+import fs from 'node:fs';
 
 import { createLogger } from 'vite';
 
-import { convertToKeyType, saveKeyTypeToFile } from './plugin/key-type';
-import parser from './plugin/parser';
-import locale from './plugin/locale';
+import { convertToKeyType, saveKeyTypeToFile } from './plugin/key-type.ts';
+import parser from './plugin/parser.ts';
+import locale from './plugin/locale.ts';
 
 interface ConfigInterface {
   langDirname?: string;

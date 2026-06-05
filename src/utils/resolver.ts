@@ -1,6 +1,6 @@
-import recognizer from '../utils/recognizer';
+import recognizer from '../utils/recognizer.ts';
 
-import LocaleFileInterface from '../interfaces/locale-file';
+import LocaleFileInterface from '../interfaces/locale-file.ts';
 
 /**
  * Resolver the language file.

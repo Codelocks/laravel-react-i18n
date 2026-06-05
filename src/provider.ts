@@ -1,13 +1,13 @@
 import { createElement, useEffect, useState } from 'react';
 
-import { Context } from './context';
-import type DefaultOptionsInterface from './interfaces/default-options';
-import type I18nProviderProps from './interfaces/i18n-provider-props';
-import type ReplacementsInterface from './interfaces/replacements';
-import pluralization from './utils/pluralization';
-import recognizer from './utils/recognizer';
-import replacer from './utils/replacer';
-import resolver from './utils/resolver';
+import { Context } from './context.ts';
+import type DefaultOptionsInterface from './interfaces/default-options.ts';
+import type I18nProviderProps from './interfaces/i18n-provider-props.ts';
+import type ReplacementsInterface from './interfaces/replacements.ts';
+import pluralization from './utils/pluralization.ts';
+import recognizer from './utils/recognizer.ts';
+import replacer from './utils/replacer.ts';
+import resolver from './utils/resolver.ts';
 
 /**
  *

@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 
-import ContextInterface from './interfaces/context';
+import ContextInterface from './interfaces/context.ts';
 
 export const Context = createContext<ContextInterface>({
   t: (key) => '',

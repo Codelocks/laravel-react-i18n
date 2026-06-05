@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import OptionsInterface from './options';
+import OptionsInterface from './options.ts';
 
 /**
  *
